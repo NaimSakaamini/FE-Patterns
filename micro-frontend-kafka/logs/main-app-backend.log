@@ -1,0 +1,24 @@
+
+> main-app-backend@1.0.0 dev
+> nodemon server.js
+
+[33m[nodemon] 2.0.22[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node server.js`[39m
+{"level":"WARN","timestamp":"2025-03-08T13:29:21.828Z","logger":"kafkajs","message":"KafkaJS v2.0.0 switched default partitioner. To retain the same partitioning behavior as in previous versions, create the producer with the option \"createPartitioner: Partitioners.LegacyPartitioner\". See the migration guide at https://kafka.js.org/docs/migration-guide-v2.0.0#producer-new-default-partitioner for details. Silence this warning by setting the environment variable \"KAFKAJS_NO_PARTITIONER_WARNING=1\""}
+Main App server running on http://localhost:3001
+Kafka producer connected
+{"level":"ERROR","timestamp":"2025-03-08T13:29:21.857Z","logger":"kafkajs","message":"[Connection] Response CreateTopics(key: 19, version: 3)","broker":"localhost:9092","clientId":"main-app","error":"Topic creation errors","correlationId":2,"size":174}
+Topics created successfully
+Database connected successfully at: 2025-03-08T13:29:21.856Z
+Message sent to topic todo-events
+Message sent to topic session-events
+Login attempt for user: user1
+User found: user1
+Expected password hash: $2b$10$1234567890123456789012
+Provided password: $2b$10$1234567890123456789012
+Login successful
+Message sent to topic session-events
+Kafka producer disconnected

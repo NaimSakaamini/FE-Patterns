@@ -1,0 +1,15 @@
+
+> main-app-frontend@0.0.0 dev
+> vite
+
+
+  VITE v4.5.9  ready in 396 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: use --host to expose
+9:08:02 AM [vite] vite.config.js changed, restarting server...
+failed to load config from /Users/naimsakaamini/Desktop/module-federation/micro-frontend-kafka/main-app/frontend/vite.config.js
+9:08:02 AM [vite] Cannot find package '@originjs/vite-plugin-federation' imported from /Users/naimsakaamini/Desktop/module-federation/micro-frontend-kafka/main-app/frontend/vite.config.js.timestamp-1741442882774-6ac2a3170d0d6.mjs
+9:08:02 AM [vite] server restart failed
+9:08:21 AM [vite] vite.config.js changed, restarting server...
+9:08:21 AM [vite] server restarted.
